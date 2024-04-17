@@ -10,7 +10,7 @@ body {
 #cmd-window {
   width: 100%;
   height: 100%;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 #cmd-header {
@@ -23,6 +23,8 @@ body {
 
 #cmd-body {
   padding: 5px;
+  max-height: calc(100% - 50px); /* Adjust height based on the header and input line */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 #cmd-input-line {
