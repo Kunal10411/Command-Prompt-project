@@ -22,10 +22,10 @@ body {
 }
 
 #cmd-body {
-  padding: 5px;
-  max-height: calc(100% - 50px); /* Adjust height based on the header and input line */
-  overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; /* Set maximum height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
 }
+
 
 #cmd-input-line {
   background-color: #000;
